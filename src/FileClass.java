@@ -162,7 +162,7 @@ public class FileClass {
             {
                 if(str.contains(search))
                 {
-                    System.out.println("The letter is found 😊😊😂 :"+search);
+                    System.out.println("The letter is found :"+search);
                     ChooseOperation();
                 }
             }
