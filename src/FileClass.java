@@ -90,9 +90,8 @@ public class FileClass {
         System.out.println("*                                                                              *");
         System.out.println("*        1) Write File                                                         *");
         System.out.println("*        2) Read File                                                          *");
-        System.out.println("*        3) Delete File                                                        *");
-        System.out.println("*        4) Search Word                                                        *");
-        System.out.println("*        5) Exit                                                               *");
+        System.out.println("*        3) Search Word                                                        *");
+        System.out.println("*        4) Exit                                                               *");
         System.out.println("*                                                                              *");
         System.out.println("*                                                                              *");
         System.out.println("********************************************************************************");
@@ -110,14 +109,10 @@ public class FileClass {
                     ChooseOperationCaller();
                     break;
                 case '3':
-                    DeleteFile();
-                    ChooseOperationCaller();
-                    break;
-                case '4':
                     SearchWord();
                     ChooseOperationCaller();
                     break;
-                case '5':
+                case '4':
                     System.out.println("Thank you for using this platform");
                     break;
                 default:
@@ -146,10 +141,6 @@ public class FileClass {
         {
             System.out.println(scan.nextLine());
         }
-    }
-    public void DeleteFile()
-    {
-
     }
     public char Operation()
     {
